@@ -13,44 +13,44 @@
 <body>
     <center><div class="h1">Calculadora Funec</div>
     <div class="main">
-      <form name="form">
-          <input type="textview" name="textview">
+      <form name="form" >
+          <input type="textview" name="textview" id="resultado">
       </form>
       <table>
           <td>
-              <input type="button" class="button" onclick="apagar()" value="C">
-              <input type="button" class='button' onclick="inserir('/')" value="/">
-              <input type="button" class='button' onclick="inserir('*')" value="*">
-              <input type="button" class='button' onclick="voltar()" value="apagar">
+              <input type="button" class="button" onclick="apagar()" value="C"      id="botão">
+              <input type="button" class='button' onclick="inserir('/')" value="/"  id="botão">
+              <input type="button" class='button' onclick="inserir('*')" value="*"  id="botão">
+              <input type="button" class='button' onclick="voltar()" value="del" id="botão">
           </td>
           <tr>
               <td>
-                <input type="button" class="button" onclick="inserir(1)" value="1">
-                <input type="button" class="button" onclick="inserir(2)" value="2">
-                <input type="button" class="button" onclick="inserir(3)" value="3">
-                <input type="button" class="button" onclick="inserir('+')" value="+">
+                <input type="button" class="button" onclick="inserir(1)" value="1"   id="botão">
+                <input type="button" class="button" onclick="inserir(2)" value="2"   id="botão">
+                <input type="button" class="button" onclick="inserir(3)" value="3"   id="botão">
+                <input type="button" class="button" onclick="inserir('+')" value="+" id="botão">
               </td>
           </tr>
           <tr>
               <td>
-                <input type="button" class="button" onclick="inserir(4)" value="4">
-                <input type="button" class="button" onclick="inserir(5)" value="5">
-                <input type="button" class="button" onclick="inserir(6)" value="6">
-                <input type="button" class="button" onclick="inserir('-')" value="-">
+                <input type="button" class="button" onclick="inserir(4)" value="4"   id="botão">
+                <input type="button" class="button" onclick="inserir(5)" value="5"   id="botão">
+                <input type="button" class="button" onclick="inserir(6)" value="6"   id="botão">
+                <input type="button" class="button" onclick="inserir('-')" value="-" id="botão">
               </td>
           </tr>
           <tr>
               <td>
-                <input type="button" class="button" onclick="inserir(7)" value="7">
-                <input type="button" class="button" onclick="inserir(8)" value="8">
-                <input type="button" class="button" onclick="inserir(9)" value="9">
-                <input type="button" class="button" onclick="igual()" value="=">
+                <input type="button" class="button" onclick="inserir(7)" value="7"   id="botão">
+                <input type="button" class="button" onclick="inserir(8)" value="8"   id="botão">
+                <input type="button" class="button" onclick="inserir(9)" value="9"   id="botão">
+                <input type="button" class="button" onclick="igual()" value="="      id="botão">
               </td>
           </tr>
           <tr>
               <td>
-               <input type='button' value='0' onclick="inserir(0)" class='button' id='n0'>
-                <input type='button' value='.' onclick="inserir('.')" class='button' id='n0'>
+               <input type='button' value='0' onclick="inserir(0)" class='button' id='botão'>
+                <input type='button' value='.' onclick="inserir('.')" class='button' id='botão'>
               </td>
           </tr>
       </table>
@@ -58,7 +58,7 @@
 
     </div></center>
     
-    <h3>feito por:Keven Henrique Araujo Cardoso</h3>
+    <h3>Feito Por: Keven Henrique Araujo Cardoso</h3>
     
 </body>
 </html>
